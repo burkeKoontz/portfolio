@@ -1,0 +1,108 @@
+* {
+  box-sizing: border-box;
+}
+
+*:before,
+*:after {
+ box-sizing: border-box;
+}
+
+h1, body {
+  margin: 0;
+}
+
+h2 {
+  margin-bottom: 40px;
+}
+
+body {
+  position: relative;
+  margin: 0;
+  padding-bottom: 6rem;
+  min-height: 100%;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+main {
+  padding-top: 175px;
+}
+
+.bio-pic {
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.project-pic {
+  height: 500px;
+}
+
+section {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-bottom: 180px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+a {
+  color: #0060B6;
+  text-decoration: none;
+}
+
+html {
+  scroll-behavior: smooth;
+  margin: 0;
+  height: 100%;
+}
+
+footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: lightblue;
+  text-align: center;
+}
+
+header {
+  opacity: 1;
+  background-color: lightblue;
+  width: 100%;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+ul {
+  padding-left: 0;
+}
+
+nav {
+  font-size: 1.5em;
+}
+
+li {
+  list-style-type: none;
+  height: 2em;
+  line-height: 2em; 
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+p {
+  margin-top: 35px;
+  line-height: 40px;
+}
