@@ -1,11 +1,15 @@
 * {
   box-sizing: border-box;
   font-family: 'Lato', sans-serif;
-  color: #333;
 }
 
 p {
   font-size: 1.25em;
+  color: #333;
+}
+
+h1, h2, h3, h4 {
+  color: #333;
 }
 
 *:before,
@@ -86,12 +90,10 @@ i {
 a {
   color: #0d324d;
   text-decoration: none;
-  transition: all .2s ease-in-out;
 }
 
 a:hover { 
   color: #e4dfda;
-  transform: scale(1.1);
 }
 
 html {
@@ -198,6 +200,7 @@ p {
   
   section.contact {
     margin-bottom: 175px;
+    padding-top: 175px;
   }
 
   .projects {
