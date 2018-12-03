@@ -12,6 +12,10 @@ h1, h2, h3, h4 {
   color: #333;
 }
 
+h1 {
+  font-size: 1.25em;
+}
+
 *:before,
 *:after {
  box-sizing: border-box;
@@ -66,12 +70,9 @@ section {
   padding-right: 10%;
 }
 
-section.contact {
-  margin-bottom: 100px;
-}
-
 .projects {
   margin-top: 120px;
+  margin-bottom: 200px;
 }
 
 .contact-links li {
@@ -88,12 +89,12 @@ i {
 }
 
 a {
-  color: #0d324d;
+  color: #104456;
   text-decoration: none;
 }
 
 a:hover { 
-  color: #e4dfda;
+  color: #030303;
 }
 
 html {
@@ -108,19 +109,19 @@ footer {
   right: 0;
   bottom: 0;
   left: 0;
-  padding: 1rem;
-  background-color: #73c2be;
+  padding: .5rem;
+  background-color: #BCE1E1;
   text-align: center;
 }
 
 header {
   opacity: 1;
-  background-color: #73c2be;
+  background-color: #A4D6D5;
   width: 100%;
   padding-left: 10%;
   padding-right: 10%;
-  padding-top: 1%;
-  padding-bottom: 1%;
+  padding-top: .15%;
+  padding-bottom: .15%;
   text-align: center;
   position: fixed;
   top: 0;
